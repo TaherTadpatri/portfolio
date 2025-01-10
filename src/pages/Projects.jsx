@@ -13,13 +13,18 @@ const project_list = [
     tags: ["AI", "Machine Learning", "YouTube"],
     link: "https://github.com/TaherTadpatri/Youtube-Summarizer",
   },
+  {id:2,
+    name :"print Store e-commerce 🔗",
+    description :"Store to print out your memories of your friends,family and loved ones" ,
+    link :"https://frameyourmemories.netlify.app/"
+  }
 ];
 function Projects() {
   return (
     <div>
       <Container maxWidth="md" sx={{ marginTop: "5rem" }}>
         {project_list.map((project) => (
-          <div key={project.id}>
+          <div key={project.id} style={{marginTop : '1rem'}}>
             <Link to={project.link}  style={{ textDecoration: 'none' }}>
             <Paper elevation={1}>
               <Box gap={2} sx={{ padding: "1.5rem" }}>

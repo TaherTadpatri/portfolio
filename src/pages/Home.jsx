@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Typography } from "@mui/material";
-import profile from "/src/assets/profile.png";
+import profile from "/src/assets/profile.jpg";
 import Buttons from "../Components/Buttons";
 import AllTechStack from "../Components/AllTechStack";
 import About from "../Components/About";
+import Contact from "../Components/Contact";
 function Home() {
   return (
     <div>
@@ -22,6 +23,7 @@ function Home() {
             {" "}
             Taher Tadpatri
           </Typography>
+        
           <img src={profile} width="200px" style={{ borderRadius: "10px" }} />
         </div>
 
@@ -29,6 +31,7 @@ function Home() {
         <AllTechStack />
 
         <Buttons />
+      
       </Container>
     </div>
   );
