@@ -17,16 +17,31 @@ const project_list = [
     name :"print Store e-commerce 🔗",
     description :"Store to print out your memories of your friends,family and loved ones" ,
     link :"https://frameyourmemories.netlify.app/"
+  },
+  {
+    id:3,
+    name :"Beautylator",
+    description : "A machine learing model calculates the beauty of your face based on the priciples of golden ratio and symmetry used in facial surgery",
+    link :""
   }
 ];
 function Projects() {
   return (
     <div>
-      <Container maxWidth="md" sx={{ marginTop: "5rem" }}>
+      <Container maxWidth="md" sx={{ marginTop: "5rem" ,
+         backgroundColor: '#f0f0f0', // Light gray background
+         paddingLeft : '1rem', 
+         paddingRight: '1rem',
+         paddingTop : '1rem',
+         paddingBottom : '1rem',
+         marginTop : '2rem',
+         borderRadius: '1rem',
+         boxShadow: '0 0 1px rgba(0, 0, 0,0.1)'
+      }}>
         {project_list.map((project) => (
           <div key={project.id} style={{marginTop : '1rem'}}>
             <Link to={project.link}  style={{ textDecoration: 'none' }}>
-            <Paper elevation={1}>
+            <Paper elevation={0} sx={{borderRadius : '1rem'}}>
               <Box gap={2} sx={{ padding: "1.5rem" }}>
                 <Typography variant="h5" sx={{ marginBottom: "1rem" }}>
                   {project.name}{" "}

@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import AllTechStack from "./Components/AllTechStack";
 import About from "./Components/About";
-import profile from "/src/assets/profile.png";
+import profile from "/src/assets/profile.jpg";
 import Buttons from "./Components/Buttons";
 function App() {
   return (

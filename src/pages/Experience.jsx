@@ -24,10 +24,18 @@ const experience_list = [
 function Experience() {
   return (
     <div>
-      <Container maxWidth="md" sx={{ marginTop: "5rem" }}>
+      <Container maxWidth="md" sx={{ marginTop: "2rem",
+        backgroundColor: '#f0f0f0', // Light gray background
+        paddingLeft : '2rem', 
+        paddingRight: '2rem',
+        paddingTop : '1rem',
+        paddingBottom : '1rem',
+        borderRadius: '1rem',
+        boxShadow: '0 0 1px rgba(0, 0, 0,0.1)'
+       }}>
         {experience_list.map((item) => (
           <div key={item.id} style={{marginTop : '1rem'}}>
-            <Paper elevation={1}>
+            <Paper elevation={0} sx={{borderRadius: '1rem'}}>
               <Box gap={2} sx={{ padding: "1.5rem" }}>
                 <Typography>{item.companyName}<span style={{ marginLeft: "1rem" }}>({item.dates})</span></Typography>
                 <Typography variant="h5" sx={{ marginBottom: "1rem" }}>

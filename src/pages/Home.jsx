@@ -8,7 +8,7 @@ import Contact from "../Components/Contact";
 function Home() {
   return (
     <div>
-      <Container maxWidth="md" sx={{ marginTop: "5rem" }}>
+      <Container maxWidth="md" sx={{ marginTop: "2rem" }}>
         <div
           style={{
             display: "flex",

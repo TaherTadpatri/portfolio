@@ -4,7 +4,14 @@ import React from "react";
 function About() {
   return (
     <div>
-      <Grid2 spacing={3}>
+      <Grid2 spacing={3} sx={{ backgroundColor: '#f0f0f0', // Light gray background
+         paddingLeft : '2rem', 
+         paddingRight: '2rem',
+         paddingTop : '1rem',
+         paddingBottom : '1rem',
+         marginTop : '2rem',
+         borderRadius: '1rem',
+         boxShadow: '0 0 1px rgba(0, 0, 0,0.1)'}}>
       <Typography variant="h4" >About</Typography>
         <Stack direction="row">
           

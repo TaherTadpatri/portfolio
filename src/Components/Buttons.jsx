@@ -33,7 +33,7 @@ function Buttons() {
           marginBottom: "3rem",
         }}
       >
-        <Stack spacing={3} direction="row">
+        <Stack spacing={1} direction="row">
           <Button
             variant="outlined"
             sx={{

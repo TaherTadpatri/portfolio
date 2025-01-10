@@ -36,6 +36,7 @@ function AllTechStack() {
 
         justifyContent: "center",
         alignItems: "center",
+        
       }}
     >
       
