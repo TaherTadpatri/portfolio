@@ -5,7 +5,7 @@ This is my personal portfolio website, built with React and Vite. It showcases m
 
 ## Live Demo
 
-[https://tahertadpatri.netlify.app/]
+https://tahertadpatri.netlify.app/
 
 ## Technologies Used
 
@@ -27,7 +27,7 @@ To run this project locally, follow these steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone [<repository_url>](https://github.com/TaherTadpatri/portfolio.git)
+    git clone https://github.com/TaherTadpatri/portfolio.git
     ```
 
 2.  **Install dependencies:**
@@ -54,3 +54,6 @@ npm run build
 yarn build
 # or
 pnpm build
+
+
+
