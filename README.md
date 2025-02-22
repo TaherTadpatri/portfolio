@@ -1,5 +1,5 @@
 
-# My React Portfolio (Vite)
+# Portfolio
 
 This is my personal portfolio website, built with React and Vite. It showcases my projects, skills, and experience.
 
@@ -9,8 +9,8 @@ https://tahertadpatri.netlify.app/
 
 ## Technologies Used
 
-* **React:** 
-* **Vite:** 
+* **React** 
+* **Vite** 
 
 ## Features
 
@@ -44,16 +44,9 @@ To run this project locally, follow these steps:
 
 5.  **Open your browser and navigate to `http://localhost:5173` (or the port Vite specifies).**
 
-## Building for Production
+Screenshot of website
 
-To build the project for production, run the following command:
-
-```bash
-npm run build
-# or
-yarn build
-# or
-pnpm build
+![Screenshot](image.png)
 
 
 
